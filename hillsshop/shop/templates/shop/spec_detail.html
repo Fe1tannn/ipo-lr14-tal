@@ -1,0 +1,12 @@
+{{ establishment.title }} ({{ establishment.short_title }})
+Описание: {{ establishment.desc }}
+
+Адрес: {{ establishment.adress }}
+
+Телефон: {{ establishment.tel }}
+
+Email: {{ establishment.email }}
+
+Сайт: {% if establishment.wsite %}{{ establishment.wsite }}{% else %}Нет{% endif %}
+
+Вернуться к списку
